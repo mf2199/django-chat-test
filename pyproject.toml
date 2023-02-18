@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "django-chat-test"
+version = "0.8.0"
+description = ""
+authors = [ "mf2199", ]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.2.1"
