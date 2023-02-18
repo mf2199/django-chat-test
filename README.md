@@ -8,4 +8,7 @@ This task would involve creating a real-time chat system for the application usi
 
 They may also need to integrate the chat functionality with the rest of the application, such as displaying the chat history on user-specific pages or adding notifications for new messages.
 
- 
+---
+
+Based on the Django Channels tutorial:
+https://channels.readthedocs.io/en/stable/tutorial/index.html
