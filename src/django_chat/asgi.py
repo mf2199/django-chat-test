@@ -18,7 +18,6 @@ import chat.routing
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_chat.settings')
 
-# application = get_asgi_application()
 application = ProtocolTypeRouter(
     {
         "http": get_asgi_application(),
@@ -27,4 +26,3 @@ application = ProtocolTypeRouter(
         ),
     }
 )
-

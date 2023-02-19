@@ -12,3 +12,7 @@ They may also need to integrate the chat functionality with the rest of the appl
 
 Based on the Django Channels tutorial:
 https://channels.readthedocs.io/en/stable/tutorial/index.html
+
+---
+
+Requires Redis server on port 6379 (127.0.0.1:6379).
