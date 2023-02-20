@@ -5,6 +5,7 @@ from asgiref.sync import async_to_sync
 from channels.generic.websocket import WebsocketConsumer
 
 from .models import Message
+from .views import logout_request
 
 user = get_user_model()
 
@@ -18,7 +19,8 @@ class ChatConsumer(WebsocketConsumer):
     def fetch_messages(self, data):
         messages = Message.last_messages()
         content = {
-            "messages": self.messages_to_json(messages)
+            "command": "messages",
+            "messages": self.messages_to_json(messages),
         }
         self.send_message(content)
 
