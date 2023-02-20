@@ -19,6 +19,10 @@ https://github.com/joewalnes/reconnecting-websocket
 
 - User registration tutorial
 https://ordinarycoders.com/blog/article/django-user-register-login-logout
+
+- Django Bootstrap forms
+https://ordinarycoders.com/blog/article/render-a-django-form-with-bootstrap
+
 ---
 
 Requires Redis server on port 6379 (127.0.0.1:6379).

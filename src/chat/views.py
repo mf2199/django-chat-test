@@ -33,7 +33,8 @@ def register_request(request):
             user = form.save()
             login(request, user)
             messages.success(request, "Registration successful.")
-            return redirect("chat:homepage")
+            # return redirect("chat:homepage")
+            return redirect("chat/")
         messages.error(
             request, "Unsuccessful registration. Invalid information."
         )
