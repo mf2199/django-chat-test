@@ -44,6 +44,7 @@ https://ordinarycoders.com/blog/article/render-a-django-form-with-bootstrap
 - Add correct appearance of active/inactive users in the sidebar instead of using placeholders.
 - Improve upon styling.
 - Add unit/integration tests.
+- Add CI/CD actions for automatted testing, code smell detection, and potential deployment.
 
 ## Items for further consideration:
 
