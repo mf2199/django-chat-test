@@ -5,7 +5,6 @@ from asgiref.sync import async_to_sync
 from channels.generic.websocket import WebsocketConsumer
 
 from .models import Message
-from .views import logout_request
 
 user = get_user_model()
 

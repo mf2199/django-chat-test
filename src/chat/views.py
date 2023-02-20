@@ -74,3 +74,8 @@ def logout_request(request):
     logout(request)
     messages.info(request, "You have successfully logged out.")
     return redirect("chat/")
+
+
+def redirect_view(request):
+    response = redirect('chat/')
+    return response

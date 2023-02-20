@@ -18,11 +18,11 @@ from django.urls import include, path, re_path
 from django.views.generic import RedirectView
 
 urlpatterns = [
+    re_path('admin/', admin.site.urls),
     path("", include("chat.urls")),
     # path(
     #     "",
     #     RedirectView.as_view(pattern_name='chat/', permanent=False)
     # ),
     # re_path("chat/", include("chat.urls")),
-    re_path('admin/', admin.site.urls),
 ]
